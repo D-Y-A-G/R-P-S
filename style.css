@@ -44,3 +44,33 @@
 .paper:hover {
   transform: scale(2.1);
 }
+
+.score-container {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 50px;
+}
+
+.gamesPlayed {
+  color: tomato;
+}
+.yourScore {
+  color: dodgerblue;
+}
+
+.aiScore {
+  color: greenyellow;
+}
+
+.reset {
+  color: darkturquoise;
+  float: right;
+  font-size: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.reset:hover {
+  color: red;
+  transform: scale(1.2);
+}
