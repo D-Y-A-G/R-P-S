@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: "Amatic SC", cursive;
+}
+
+.title {
+  margin-bottom: 50px;
+  font-size: 70px;
+  text-align: center;
+}
+
+.subtitle {
+  margin-bottom: 50px;
+  font-size: 30px;
+  text-align: center;
+  color: gold;
+}
+
+.container {
+  width: 100%;
+  justify-content: center;
+  display: inline-flex;
+  align-items: center;
+  font-size: 70px;
+}
+
+.rock {
+  cursor: pointer;
+  margin-right: 150px;
+}
+.scissors {
+  cursor: pointer;
+  margin-right: 150px;
+}
+.paper {
+  cursor: pointer;
+  margin-right: 150px;
+}
+.rock:hover,
+.scissors:hover,
+.paper:hover {
+  transform: scale(2.1);
+}
