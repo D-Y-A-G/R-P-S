@@ -24,7 +24,16 @@
   justify-content: center;
   display: inline-flex;
   align-items: center;
-  font-size: 70px;
+  font-size: 50px;
+}
+
+.choices {
+  color: rgb(233, 140, 0);
+}
+
+.result {
+  color: rgb(0, 242, 255);
+  font-size: larger;
 }
 button {
   font-size: 70px;
@@ -61,6 +70,8 @@ button {
 }
 #result {
   color: gold;
+  font-weight: bolder;
+  text-shadow: 3px 3px rgb(179, 26, 26);
 }
 
 .gamesPlayed {
