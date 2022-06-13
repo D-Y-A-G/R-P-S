@@ -26,22 +26,25 @@
   align-items: center;
   font-size: 70px;
 }
+button {
+  font-size: 70px;
+}
 
-.rock {
+#rock {
   cursor: pointer;
   margin-right: 150px;
 }
-.scissors {
+#scissors {
   cursor: pointer;
   margin-right: 150px;
 }
-.paper {
+#paper {
   cursor: pointer;
   margin-right: 150px;
 }
-.rock:hover,
-.scissors:hover,
-.paper:hover {
+#rock:hover,
+#scissors:hover,
+#paper:hover {
   transform: scale(2.1);
 }
 
@@ -49,6 +52,15 @@
   text-align: center;
   margin-top: 100px;
   font-size: 50px;
+}
+#player-choice {
+  color: royalblue;
+}
+#ai-choice {
+  color: tomato;
+}
+#result {
+  color: gold;
 }
 
 .gamesPlayed {
